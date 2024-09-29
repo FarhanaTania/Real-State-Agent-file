@@ -1,0 +1,67 @@
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    background-color: bisque;
+    display: flex;
+   
+   
+}
+div {
+    padding: 20px;
+    
+    box-sizing: border-box; 
+    
+}
+nav {
+   display: flex;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    padding: 0px 60px 0px 0px;
+    
+    
+}
+ul li{
+    display: flex;
+    padding: 10px;
+    
+}
+ul li img{
+    padding: 10px;
+}
+h4{
+  display: flex;  
+}
+.review{
+   display: flex;
+    padding: 1px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+fieldset{ border: 1px solid brown;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px;
+    margin: 5px; 
+}

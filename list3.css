@@ -1,0 +1,69 @@
+body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+main{
+    background-color: bisque;
+    padding: 30px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid burlywood
+}
+.slider{
+    display:flex;
+    padding-left: 25px;
+}
+div img{
+    width: 100%;
+    height:200px;
+    border: 1px solid brown;
+}
+
+ul li{
+    list-style: none;
+}
+.details{
+width: 33%;
+}
+.catagory{
+    display:flex;
+    
+    
+}
+nav {
+   display: flex;
+     margin: auto;
+     padding: auto;
+     box-sizing: border-box;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+    
+    
+ }
+ 
+ nav ul {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style: none;
+     text-decoration: none;
+ }
+ 
+ 
+ nav ul li {
+     padding : 10px
+ }
+.contact{
+    border: 2px solid brown;
+    border-radius: 5px;
+    text-align: center;
+}
+fieldset{ border: 1px solid brown;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px;
+    margin: 5px; 
+}
+
